@@ -5,7 +5,10 @@
 #### Introduction to Terraform and IaC
 
 In this session, we'll introduce you to the fundamental concepts of Terraform and Infrastructure as Code (IaC). Learn why Terraform is crucial for managing infrastructure and how IaC streamlines provisioning.
+
+
 <img width="300" height="250" alt="Image" src="https://github.com/user-attachments/assets/123f7c7e-7640-42e1-ba14-910224ba194b" />
+
 
 #### Installing Terraform on MacOS, Linux and Windows
 

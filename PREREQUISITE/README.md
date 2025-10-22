@@ -16,7 +16,11 @@ Before the advent of IaC, infrastructure management was typically a manual and t
 IaC addresses these challenges by providing a systematic, automated, and code-driven approach to infrastructure management. Popular IaC tools include Terraform, AWS CloudFormation, Azure Resource Manager templates others. 
 
 These tools enable organizations to define, deploy, and manage their infrastructure efficiently and consistently, making it easier to adapt to the dynamic needs of modern applications and services.
+
+<img width="1024" height="484" alt="Image" src="https://github.com/user-attachments/assets/e71e131a-9216-48ac-a17d-e1c31aa88d03" />
+
 ---
+
 # Why Terraform ?
 ---
 There are multiple reasons why Terraform is used over the other IaC tools but below are the main reasons.

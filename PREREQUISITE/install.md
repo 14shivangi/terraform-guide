@@ -1,6 +1,6 @@
 # Install Terraform
 
-<img width="300" height="250" alt="Image" src="https://github.com/user-attachments/assets/35a602d5-93c6-47e1-ba82-00b2f1630eba" />
+<img width="500" height="450" alt="Image" src="https://github.com/user-attachments/assets/35a602d5-93c6-47e1-ba82-00b2f1630eba" />
 
 ## Windows
 

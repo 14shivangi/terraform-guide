@@ -3,7 +3,7 @@
 Before using **Terraform**, you should understand some basic terms and ideas.  
 Let’s go through them one by one in simple words:
 
-##  1. Provider:
+##  1. Provider:-
 
 A **provider** is like a bridge between Terraform and the platform you want to work with (like AWS, Azure, or Google Cloud).  
 It helps Terraform talk to that platform and manage its resources.  

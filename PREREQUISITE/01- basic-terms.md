@@ -11,7 +11,7 @@ It helps Terraform talk to that platform and manage its resources.
  **Example:**  
 The AWS provider lets Terraform create and manage AWS services like EC2 or S3.
 
-##  2. Resource:
+##  2. Resource:-
 
 A **resource** is an actual piece of infrastructure you want to create.  
 It can be a virtual machine, database, storage bucket, or network.  

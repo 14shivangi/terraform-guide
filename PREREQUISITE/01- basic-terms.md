@@ -1,4 +1,4 @@
-# 🏗️ Terraform Concepts:
+# 🏗️ Terraform Concepts:-
 
 Before using **Terraform**, you should understand some basic terms and ideas.  
 Let’s go through them one by one in simple words:

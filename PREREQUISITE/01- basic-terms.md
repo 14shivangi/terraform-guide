@@ -11,8 +11,7 @@ It helps Terraform talk to that platform and manage its resources.
 
 ##  2. Resource:
 
-A **resource** is an actual piece of infrastructure you want to create.  
-It can be a virtual machine, database, storage bucket, or network.  
+A **resource** is an actual piece of infrastructure you want to create.  It can be a virtual machine, database, storage bucket, or network.  
 Each resource has a **type** (like `aws_instance` or `aws_s3_bucket`) and **settings** that define how it should look or behave.
 
 ##  3. Module:

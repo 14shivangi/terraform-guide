@@ -52,7 +52,7 @@ For example, after creating an EC2 instance, an output might show the **public I
 Terraform keeps a **state file** (usually named `terraform.tfstate`) to remember what it has already created.  
 This file is important because it helps Terraform know what to **change**, **add**, or **delete** the next time you run it.
 
-##  8. Plan
+##  8. Plan:
 
 The `terraform plan` command shows you a **preview** of what Terraform will do —  
 like which resources it will **create**, **change**, or **delete**.  

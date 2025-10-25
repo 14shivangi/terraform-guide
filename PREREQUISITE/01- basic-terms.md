@@ -1,7 +1,6 @@
 # 🏗️ Terraform Concepts:-
 
-Before using **Terraform**, you should understand some basic terms and ideas.  
-Let’s go through them one by one in simple words:
+Before using **Terraform**, lets understand some basic terms and ideas. Let’s go through them one by one in simple words:
 
 ##  1. Provider:
 

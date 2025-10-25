@@ -3,7 +3,7 @@
 Before using **Terraform**, you should understand some basic terms and ideas.  
 Let’s go through them one by one in simple words:
 
-##  1. Provider:-
+##  1. Provider:
 
 A **provider** is like a bridge between Terraform and the platform you want to work with (like AWS, Azure, or Google Cloud).  
 It helps Terraform talk to that platform and manage its resources.  
@@ -11,7 +11,7 @@ It helps Terraform talk to that platform and manage its resources.
  **Example:**  
 The AWS provider lets Terraform create and manage AWS services like EC2 or S3.
 
-##  2. Resource:-
+##  2. Resource:
 
 A **resource** is an actual piece of infrastructure you want to create.  
 It can be a virtual machine, database, storage bucket, or network.  

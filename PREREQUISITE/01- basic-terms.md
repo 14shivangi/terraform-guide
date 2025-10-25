@@ -48,13 +48,6 @@ The main file is usually named `main.tf`, but you can have more files if needed.
 A **variable** is like a placeholder for values you can change easily.  
 It makes your code flexible — instead of writing the same value everywhere, you define it once and use it wherever needed.  
 
-👉 **Example:**
-```hcl
-variable "region" {
-  default = "us-east-1"
-}
-
----
 
 This section explains some key Terraform concepts that help you understand how infrastructure is built and managed as code.
 

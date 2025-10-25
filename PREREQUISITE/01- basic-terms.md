@@ -17,7 +17,7 @@ A **resource** is an actual piece of infrastructure you want to create.
 It can be a virtual machine, database, storage bucket, or network.  
 Each resource has a **type** (like `aws_instance` or `aws_s3_bucket`) and **settings** that define how it should look or behave.
 
-##  3. Module:
+##  3. Module:-
 
 A **module** is a collection of Terraform code that can be reused.  
 It helps you organize your configurations neatly and avoid repeating the same code.  

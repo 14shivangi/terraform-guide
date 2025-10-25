@@ -40,14 +40,14 @@ It makes your code flexible — instead of writing the same value everywhere, yo
 
 This section explains some key Terraform concepts that help you understand how infrastructure is built and managed as code.
 
-##  6. Output
+##  6. Output:
 
 **Outputs** show the important results after Terraform creates your resources.  
 For example, after creating an EC2 instance, an output might show the **public IP address** or **instance ID**.  
 
  Outputs can also be shared or used by other Terraform setups.
 
-##  7. State File
+##  7. State File:
 
 Terraform keeps a **state file** (usually named `terraform.tfstate`) to remember what it has already created.  
 This file is important because it helps Terraform know what to **change**, **add**, or **delete** the next time you run it.

@@ -7,8 +7,7 @@ Before using **Terraform**, lets understand some basic terms and ideas. Let’s 
 A **provider** is like a bridge between Terraform and the platform you want to work with (like AWS, Azure, or Google Cloud).  
 It helps Terraform talk to that platform and manage its resources.  
 
- **Example:**  
-The AWS provider lets Terraform create and manage AWS services like EC2 or S3.
+ **Example:**   The AWS provider lets Terraform create and manage AWS services like EC2 or S3.
 
 ##  2. Resource:
 
@@ -27,8 +26,7 @@ Modules can be your own or downloaded from the **Terraform Registry** (where oth
 Terraform uses **configuration files** (with a `.tf` extension) to describe what you want to create.  
 These files contain your providers, resources, variables, etc.  
 
- **Example:**  
-The main file is usually named `main.tf`, but you can have more files if needed.
+ **Example:**   The main file is usually named `main.tf`, but you can have more files if needed.
 
 ##  5. Variable:
 

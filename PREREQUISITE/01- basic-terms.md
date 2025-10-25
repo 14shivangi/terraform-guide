@@ -59,24 +59,24 @@ like which resources it will **create**, **change**, or **delete**.
 
  Think of it as a **dry run** before making real changes.
 
-##  9. Apply
+##  9. Apply:
 
 The `terraform apply` command actually performs the actions from the plan.  
 It **creates**, **updates**, or **deletes** resources as defined in your configuration files.
 
 
-##  10. Workspace
+##  10. Workspace:
 
 A **workspace** helps you manage different environments (like `dev`, `test`, or `production`) separately.  
 Each workspace has its own **state file**, so your environments don’t get mixed up.
 
-## ☁️ 11. Remote Backend
+##  11. Remote Backend:
 
 A **remote backend** is a safe place (like **AWS S3**, **Azure Blob**, or **Terraform Cloud**) where Terraform stores your **state file** online instead of keeping it locally.  
 
  This is useful for **team collaboration**, **backups**, and **security**.
 
-##  Summary
+##  Summary:
 
 Terraform helps you **build**, **manage**, and **automate** your infrastructure using code.  
 

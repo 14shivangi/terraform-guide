@@ -3,7 +3,7 @@
 Before using **Terraform**, you should understand some basic terms and ideas.  
 Let’s go through them one by one in simple words:
 
-##  1. Provider
+##  1. Provider:
 
 A **provider** is like a bridge between Terraform and the platform you want to work with (like AWS, Azure, or Google Cloud).  
 It helps Terraform talk to that platform and manage its resources.  
@@ -11,21 +11,21 @@ It helps Terraform talk to that platform and manage its resources.
  **Example:**  
 The AWS provider lets Terraform create and manage AWS services like EC2 or S3.
 
-##  2. Resource
+##  2. Resource:
 
 A **resource** is an actual piece of infrastructure you want to create.  
 It can be a virtual machine, database, storage bucket, or network.  
 
 Each resource has a **type** (like `aws_instance` or `aws_s3_bucket`) and **settings** that define how it should look or behave.
 
-##  3. Module
+##  3. Module:
 
 A **module** is a collection of Terraform code that can be reused.  
 It helps you organize your configurations neatly and avoid repeating the same code.  
 
 Modules can be your own or downloaded from the **Terraform Registry** (where others share ready-to-use modules).
 
-##  4. Configuration File
+##  4. Configuration File:
 
 Terraform uses **configuration files** (with a `.tf` extension) to describe what you want to create.  
 These files contain your providers, resources, variables, etc.  
@@ -33,7 +33,7 @@ These files contain your providers, resources, variables, etc.
  **Example:**  
 The main file is usually named `main.tf`, but you can have more files if needed.
 
-##  5. Variable
+##  5. Variable:
 
 A **variable** is like a placeholder for values you can change easily.  
 It makes your code flexible — instead of writing the same value everywhere, you define it once and use it wherever needed.  

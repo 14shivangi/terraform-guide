@@ -27,9 +27,13 @@ This command initializes the Terraform working directory, downloading any necess
 ## Plan Resources:
 
 Run the following command to preview what Terraform will do before making any real changes to your cloud resources.
+
 ```
 terraform plan
 ```
+
+Terraform plan is like a preview button before you hit “confirm” on your infrastructure changes.
+It shows what will happen but doesn’t actually do it yet.
 
 ## Apply the Configuration:
 

@@ -26,7 +26,7 @@ This command initializes the Terraform working directory, downloading any necess
 
 ## Plan Resources:
 
-Run the following command to 
+Run the following command to preview what Terraform will do before making any real changes to your cloud resources.
 ```
 terraform plan
 ```

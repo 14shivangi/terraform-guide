@@ -19,12 +19,12 @@ Create a directory for your Terraform project and create a Terraform configurati
 In your terminal, navigate to the directory containing your Terraform configuration files and run:
 
 ```
-terraform init
+terraform init  
 ```
 
 This command initializes the Terraform working directory, downloading any necessary provider plugins.
 
-## Apply the Configuration
+## Apply the Configuration:
 
 Run the following command to create the AWS resources defined in your Terraform configuration:
 

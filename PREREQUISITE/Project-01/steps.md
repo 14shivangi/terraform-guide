@@ -24,6 +24,9 @@ terraform init
 
 This command initializes the Terraform working directory, downloading any necessary provider plugins.
 
+## Plan Resources:
+
+
 ## Apply the Configuration:
 
 Run the following command to create the AWS resources defined in your Terraform configuration:

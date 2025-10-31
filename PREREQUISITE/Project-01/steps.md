@@ -26,6 +26,10 @@ This command initializes the Terraform working directory, downloading any necess
 
 ## Plan Resources:
 
+Run the following command to 
+```
+terraform plan
+```
 
 ## Apply the Configuration:
 

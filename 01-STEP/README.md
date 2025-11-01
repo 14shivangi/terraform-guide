@@ -1,16 +1,16 @@
 
 # 📘 Terraform Learning 
 
-This repository contains structured learning materials and examples for understanding **Terraform fundamentals**, focusing on **providers, variables, and expressions**.  
-Each file is designed to explain a specific concept with clear Markdown documentation and practical `.tf` code samples.
+This step contains structured learning materials and examples for understanding **Terraform fundamentals**, focusing on **providers, variables, and expressions**.  
+Each file is designed to explain a specific concept with documentation and practical `.tf` code.
 
 ---
 
-## 📂 Folder Structure Overview
+## Structure of this step to learn terraform:
 
-| File / Folder | Description |
+| File | Description |
 |----------------|-------------|
-| 📁 `PROJECT-vpc-with-ec2/` | A hands-on project demonstrating how to create a **VPC with an EC2 instance** using Terraform. |
+| `PROJECT-vpc-with-ec2/` | A hands-on project demonstrating how to create a **VPC with an EC2 instance** using Terraform. |
 | `01-providers.md` | Explains the concept of **Terraform providers**, which allow Terraform to manage resources on different platforms like AWS, Azure, and GCP. |
 | `02-multiple-providers.md` | Shows how to configure and use **multiple providers** in a single Terraform project. |
 | `03-multiple-regions.md` | Covers managing **resources across multiple regions** within a provider. |

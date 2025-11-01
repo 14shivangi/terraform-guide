@@ -1,5 +1,5 @@
 
-# 📘 Terraform Learning Repository – Day 2
+# 📘 Terraform Learning 
 
 This repository contains structured learning materials and examples for understanding **Terraform fundamentals**, focusing on **providers, variables, and expressions**.  
 Each file is designed to explain a specific concept with clear Markdown documentation and practical `.tf` code samples.

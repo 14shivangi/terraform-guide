@@ -9,3 +9,14 @@ For example, if you want to create a virtual machine on AWS, you would use the A
 This provider gives Terraform access to AWS resources, allowing it to create, manage, and delete them as needed.
 
 Here’s an example of how to configure the AWS provider in Terraform:
+
+```hcl
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "example" {
+  ami = "ami-0123456789abcdef0" # Change the AMI 
+  instance_type = "t2.micro"
+}
+```

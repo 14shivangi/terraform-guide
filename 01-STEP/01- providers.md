@@ -29,3 +29,12 @@ When Terraform is executed, it will:
 
 - Install the AWS provider (if not already installed).
 - Use that provider to create the virtual machine on AWS.
+
+
+Terraform supports many other providers besides AWS, such as:
+
+- `azurerm` - for Azure
+- `google` - for Google Cloud Platform
+- `kubernetes` - for Kubernetes
+- `openstack` - for OpenStack
+- `vsphere` - for VMware vSphere

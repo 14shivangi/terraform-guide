@@ -45,6 +45,9 @@ Providers play a key role in Terraform — they enable Terraform to communicate 
 This makes Terraform a powerful and flexible tool that can manage a wide range of infrastructure and services.
 
 ## Different ways to configure providers in terraform.
-- There are three main methods to configure providers in Terraform:
+There are three main methods to configure providers in Terraform:
     - In the Root Module
-    - In the Root Module
+    - In the Child Module
+    - In the required_providers block
+ 
+      

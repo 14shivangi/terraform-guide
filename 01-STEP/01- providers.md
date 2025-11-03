@@ -27,6 +27,5 @@ Next, we define the aws_instance resource, where we specify details like the AMI
 
 When Terraform is executed, it will:
 
-Install the AWS provider (if not already installed).
-
-Use that provider to create the virtual machine on AWS.
+- Install the AWS provider (if not already installed).
+- Use that provider to create the virtual machine on AWS.

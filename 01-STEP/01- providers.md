@@ -38,3 +38,5 @@ Terraform supports many other providers besides AWS, such as:
 - `kubernetes` - for Kubernetes
 - `openstack` - for OpenStack
 - `vsphere` - for VMware vSphere
+
+There are many other providers available, and new ones are being added all the time.

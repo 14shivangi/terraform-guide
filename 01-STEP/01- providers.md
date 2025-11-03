@@ -20,3 +20,10 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 }
 ```
+
+In this example, we first define the AWS provider and set the region to us-east-1.
+Next, we define the aws_instance resource, where we specify details like the AMI ID and the instance type.
+
+When Terraform is executed, it will:
+Install the AWS provider (if not already installed).
+Use that provider to create the virtual machine on AWS.

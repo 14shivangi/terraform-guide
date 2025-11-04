@@ -8,7 +8,7 @@ Providers are defined inside your Terraform configuration files to tell Terrafor
 For example, if you want to create a virtual machine on AWS, you would use the AWS provider.
 This provider gives Terraform access to AWS resources, allowing it to create, manage, and delete them as needed.
 
-Here’s an example of how to configure the AWS provider in Terraform:
+Here’s an example of how to configure the AWS provider in Terraform:-
 
 ```hcl
 provider "aws" {

@@ -16,7 +16,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami = "ami-0000000000000abc000" # Change the AMI 
+  ami = "ami-0000000000000000000" # Change the AMI 
   instance_type = "t2.micro"
 }
 ```
@@ -62,7 +62,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami = "ami-0123456789abcdef0"
+  ami = "ami-0000000000000000000"
   instance_type = "t2.micro"
 }
 ```

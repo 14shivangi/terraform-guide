@@ -11,8 +11,8 @@ Each file is designed to explain a specific concept with documentation and pract
 | File | Description |
 |----------------|-------------|
 | PROJECT-vpc-with-ec2 | A hands-on project demonstrating how to create a **VPC with an EC2 instance** using Terraform. |
-| 01-providers.md | Explains the concept of **Terraform providers**, which allow Terraform to manage resources on different platforms like AWS, Azure, and GCP. |
-| 02-multiple-providers.md | Shows how to configure and use **multiple providers** in a single Terraform project. |
+| 01-providers | Explains the concept of **Terraform providers**, which allow Terraform to manage resources on different platforms like AWS, Azure, and GCP. |
+| 02-multiple-providers | Shows how to configure and use **multiple providers** in a single Terraform project. |
 | 03-multiple-regions.md | Covers managing **resources across multiple regions** within a provider. |
 | 04-required-providers.md | Details how to define and manage **required provider versions** for consistency and compatibility. |
 | 05-variables.md` | Introduces **Terraform variables** for reusable and flexible configurations. |

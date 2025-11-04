@@ -35,9 +35,9 @@ This collection is aimed at:
 ## 💡 Highlights
 
 - 📖 Easy-to-understand Markdown explanations. 
-- ⚙️ Real Terraform configuration examples * `(.tf files) ` *
-- 🌍 Covers multiple regions and providers  
-- 🧩 Includes a complete **VPC with EC2** project setup  
+- ⚙️ Real Terraform configuration examples. `(.tf files)`
+- 🌍 Covers multiple regions and providers.
+- 🧩 Includes a complete **VPC with EC2** project setup.
 
 ---
 

@@ -80,7 +80,7 @@ module "aws_vpc" {
 }
 
 resource "aws_instance" "example" {
-  ami = "ami-0123456789abcdef0"
+  ami = "ami-0000000000000000000"
   instance_type = "t2.micro"
   depends_on = [module.aws_vpc]
 }
@@ -103,7 +103,7 @@ terraform {
 }
 
 resource "aws_instance" "example" {
-  ami = "ami-0123456789abcdef0"
+  ami = "ami-0000000000000000000"
   instance_type = "t2.micro"
 }
 ```

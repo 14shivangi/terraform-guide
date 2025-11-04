@@ -1,4 +1,4 @@
-# Providers in terraform
+# Providers in terraform:
 
 A provider in Terraform is a plugin that allows Terraform to communicate with different platforms and services through their APIs.
 These can include cloud platforms (like AWS, Azure, GCP), SaaS applications, or any other service with an API.

@@ -10,7 +10,6 @@ Each file is designed to explain a specific concept with documentation and pract
 
 | File | Description |
 |----------------|-------------|
-| PROJECT-vpc-with-ec2 | A hands-on project demonstrating how to create a **VPC with an EC2 instance** using Terraform. |
 | 01-providers | Explains the concept of **Terraform providers**, which allow Terraform to manage resources on different platforms like AWS, Azure, and GCP. |
 | 02-multiple-providers | Shows how to configure and use **multiple providers** in a single Terraform project. |
 | 03-multiple-regions.md | Covers managing **resources across multiple regions** within a provider. |
@@ -19,7 +18,8 @@ Each file is designed to explain a specific concept with documentation and pract
 | 06-variables-implementation.tf` | Demonstrates the **practical implementation** of variables within Terraform code. |
 | 07-tfvars.md` | Explains how to use **`.tfvars` files** to manage environment-specific variable values. |
 | 08-conditional-expressions.md` | Discusses **conditional expressions** for controlling resource behavior based on conditions. |
-| 09-builtin-functions.md` | Lists and explains commonly used **Terraform built-in functions** to simplify configuration logic. |
+| 09-builtin-functions | Lists and explains commonly used **Terraform built-in functions** to simplify configuration logic. |
+| PROJECT-vpc-with-ec2 | A hands-on project demonstrating how to create a **VPC with an EC2 instance** using Terraform. |
 
 ---
 

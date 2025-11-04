@@ -14,8 +14,8 @@ Each file is designed to explain a specific concept with documentation and pract
 | 02-multiple-providers | Shows how to configure and use **multiple providers** in a single Terraform project. |
 | 03-multiple-regions | Covers managing **resources across multiple regions** within a provider. |
 | 04-required-providers | Details how to define and manage **required provider versions** for consistency and compatibility. |
-| 05-variables.md` | Introduces **Terraform variables** for reusable and flexible configurations. |
-| 06-variables-implementation.tf` | Demonstrates the **practical implementation** of variables within Terraform code. |
+| 05-variables | Introduces **Terraform variables** for reusable and flexible configurations. |
+| 06-variables-implementation | Demonstrates the **practical implementation** of variables within Terraform code. |
 | 07-tfvars.md` | Explains how to use **`.tfvars` files** to manage environment-specific variable values. |
 | 08-conditional-expressions.md` | Discusses **conditional expressions** for controlling resource behavior based on conditions. |
 | 09-builtin-functions | Lists and explains commonly used **Terraform built-in functions** to simplify configuration logic. |

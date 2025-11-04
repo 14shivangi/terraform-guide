@@ -13,9 +13,9 @@ Each file is designed to explain a specific concept with documentation and pract
 | 01- Providers | Explains the concept of **Terraform providers**, which allow Terraform to manage resources on different platforms like AWS, Azure, and GCP. |
 | 02- Multiple Providers | Shows how to configure and use **multiple providers** in a single Terraform project. |
 | 03- Multiple Regions | Covers managing **resources across multiple regions** within a provider. |
-| 04- required-providers | Details how to define and manage **required provider versions** for consistency and compatibility. |
-| 05- variables | Introduces **Terraform variables** for reusable and flexible configurations. |
-| 06- variables-implementation | Demonstrates the **practical implementation** of variables within Terraform code. |
+| 04- Required Providers | Details how to define and manage **required provider versions** for consistency and compatibility. |
+| 05- Variables | Introduces **Terraform variables** for reusable and flexible configurations. |
+| 06- Variables Implementation | Demonstrates the **practical implementation** of variables within Terraform code. |
 | 07- tfvars | Explains how to use **`.tfvars` files** to manage environment-specific variable values. |
 | 08- conditional-expressions | Discusses **conditional expressions** for controlling resource behavior based on conditions. |
 | 09- builtin-functions | Lists and explains commonly used **Terraform built-in functions** to simplify configuration logic. |

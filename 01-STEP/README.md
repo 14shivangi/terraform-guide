@@ -16,8 +16,8 @@ Each file is designed to explain a specific concept with documentation and pract
 | 04-required-providers | Details how to define and manage **required provider versions** for consistency and compatibility. |
 | 05-variables | Introduces **Terraform variables** for reusable and flexible configurations. |
 | 06-variables-implementation | Demonstrates the **practical implementation** of variables within Terraform code. |
-| 07-tfvars.md` | Explains how to use **`.tfvars` files** to manage environment-specific variable values. |
-| 08-conditional-expressions.md` | Discusses **conditional expressions** for controlling resource behavior based on conditions. |
+| 07-tfvars | Explains how to use **`.tfvars` files** to manage environment-specific variable values. |
+| 08-conditional-expressions | Discusses **conditional expressions** for controlling resource behavior based on conditions. |
 | 09-builtin-functions | Lists and explains commonly used **Terraform built-in functions** to simplify configuration logic. |
 | PROJECT-vpc-with-ec2 | A hands-on project demonstrating how to create a **VPC with an EC2 instance** using Terraform. |
 

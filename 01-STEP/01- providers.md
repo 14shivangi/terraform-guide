@@ -46,6 +46,7 @@ This makes Terraform a powerful and flexible tool that can manage a wide range o
 
 ## Different ways to configure providers in terraform.
 There are three main methods to configure providers in Terraform:-
+
     - In the Root Module
     - In the Child Module
     - In the required_providers block

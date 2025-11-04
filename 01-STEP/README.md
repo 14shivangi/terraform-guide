@@ -10,9 +10,9 @@ Each file is designed to explain a specific concept with documentation and pract
 
 | File | Description |
 |----------------|-------------|
-| 01- providers | Explains the concept of **Terraform providers**, which allow Terraform to manage resources on different platforms like AWS, Azure, and GCP. |
-| 02- multiple-providers | Shows how to configure and use **multiple providers** in a single Terraform project. |
-| 03- multiple-regions | Covers managing **resources across multiple regions** within a provider. |
+| 01- Providers | Explains the concept of **Terraform providers**, which allow Terraform to manage resources on different platforms like AWS, Azure, and GCP. |
+| 02- Multiple Providers | Shows how to configure and use **multiple providers** in a single Terraform project. |
+| 03- Multiple Regions | Covers managing **resources across multiple regions** within a provider. |
 | 04- required-providers | Details how to define and manage **required provider versions** for consistency and compatibility. |
 | 05- variables | Introduces **Terraform variables** for reusable and flexible configurations. |
 | 06- variables-implementation | Demonstrates the **practical implementation** of variables within Terraform code. |

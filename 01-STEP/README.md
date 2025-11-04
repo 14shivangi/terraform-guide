@@ -19,7 +19,7 @@ Each file is designed to explain a specific concept with documentation and pract
 | 07- tfvars | Explains how to use **`.tfvars` files** to manage environment-specific variable values. |
 | 08- conditional-expressions | Discusses **conditional expressions** for controlling resource behavior based on conditions. |
 | 09- builtin-functions | Lists and explains commonly used **Terraform built-in functions** to simplify configuration logic. |
-| PROJECT "VPC with EC2 | A hands-on project demonstrating how to create a **VPC with an EC2 instance** using Terraform. |
+| PROJECT *VPC with EC2* | A hands-on project demonstrating how to create a **VPC with an EC2 instance** using Terraform. |
 
 ---
 

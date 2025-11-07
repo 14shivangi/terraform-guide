@@ -24,4 +24,12 @@ provider "azurerm" {
 
 ```
 resource "aws_instance" "example" {
-  ami = "ami-0123456789abcdef0"
+  ami = "ami-0000000000000000"
+}
+
+resource "azurerm_virtual_machine" "example" {
+  name = "example-vm"
+  location = "eastus"
+  size = "Standard_A1"
+}
+```

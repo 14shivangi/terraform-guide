@@ -33,3 +33,4 @@ resource "azurerm_virtual_machine" "example" {
   size = "Standard_A1"
 }
 ```
+<img width="984" height="770" alt="Image" src="https://github.com/user-attachments/assets/6580fbb0-b9a9-4cf8-a63c-f9c6dd8d06f5" />

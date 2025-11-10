@@ -8,9 +8,16 @@
 terraform {
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
-      version = "~> 3.0"
+        source = "hashicorp/aws"
+        version = " ~> 6.0 "
     }
+  }
+}
+```
+
+```
+terraform {
+  required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = ">= 2.0, < 3.0"

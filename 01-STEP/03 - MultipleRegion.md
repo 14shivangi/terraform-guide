@@ -27,5 +27,4 @@ resource "aws_instance" "example2" {
   instance_type = "t2.micro"
   provider = "aws.us-west-2"
 }
-
 ```

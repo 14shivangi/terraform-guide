@@ -1,5 +1,7 @@
 # Multiple Region Implementation in Terraform
 
+- Terraform allows you to set up infrastructure across multiple AWS regions using the alias keyword within the provider configuration
+
 You can make use of `alias` keyword to implement multi region infrastructure setup in
 terraform.
 
@@ -25,4 +27,5 @@ resource "aws_instance" "example2" {
   instance_type = "t2.micro"
   provider = "aws.us-west-2"
 }
+
 ```

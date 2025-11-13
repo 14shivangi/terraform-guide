@@ -28,3 +28,34 @@ resource "aws_instance" "example" {
   ami           = "ami-0123456789abcdef0"
   instance_type = var.instance_type
 }
+```
+## **2. Output Variables**
+
+Output variables are used to **display important information** after Terraform applies changes.
+They can show results like IP addresses, instance IDs, or resource names.
+Outputs can also be shared with other modules or used for automation.
+
+### **Example:**
+```hcl
+output "instance_ip" {
+  description = "Public IP address of the EC2 instance"
+  value       = aws_instance.example.public_ip
+}
+```
+
+
+After applying Terraform, this will display the instance’s public IP address.
+Benefits of Using Variables
+Increases flexibility and reusability of configurations
+Makes code cleaner and easier to maintain
+Supports automation and collaboration through variable files (.tfvars)
+
+## **Conclusion:**
+
+Variables in Terraform make your infrastructure code more organized, scalable, and adaptable.
+By separating values from code, you can easily modify configurations for different environments without rewriting everything.
+
+
+---
+
+Would you like me to generate this as a downloadable `.md` file for you?

@@ -3,7 +3,6 @@
 Variables in Terraform are used to make your configurations **dynamic**, **reusable**, and **easy to manage**.  
 They act like parameters that let you pass values into your Terraform configuration instead of hardcoding them.
 
----
 
 ## **Types of Variables in Terraform**
 
@@ -11,8 +10,6 @@ There are two main types of variables in Terraform:
 
 - **Input Variables** – Used to provide values to your Terraform configuration.  
 - **Output Variables** – Used to display or share values after your infrastructure is created.
-
----
 
 ## **1. Input Variables**
 

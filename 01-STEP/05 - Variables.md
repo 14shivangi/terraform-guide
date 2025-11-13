@@ -44,18 +44,17 @@ output "instance_ip" {
 ```
 
 
-After applying Terraform, this will display the instance’s public IP address.
-Benefits of Using Variables
-Increases flexibility and reusability of configurations
-Makes code cleaner and easier to maintain
-Supports automation and collaboration through variable files (.tfvars)
+- After applying Terraform, this will display the instance’s public IP address.
+- Benefits of Using Variables
+- Increases flexibility and reusability of configurations
+- Makes code cleaner and easier to maintain
+- Supports automation and collaboration through variable files (.tfvars)
 
 ## **Conclusion:**
 
 Variables in Terraform make your infrastructure code more organized, scalable, and adaptable.
+
 By separating values from code, you can easily modify configurations for different environments without rewriting everything.
 
 
 ---
-
-Would you like me to generate this as a downloadable `.md` file for you?

@@ -1,5 +1,13 @@
 # Terraform 
 
+
+##TERRAFORM CONFIG:
+
+-  if uses ** .tf ** extension.
+-  Format is HCL **HASHICORP CONFIG LANGUAGE **.
+-  Declarative Language.
+-  State Management.
+
 ## Getting Started with Terraform:
 
 #### Introduction to Terraform and IaC

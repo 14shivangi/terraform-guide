@@ -3,7 +3,7 @@
 
 ### TERRAFORM CONFIG:
 
--  if uses ** .tf ** extension.
+-  if uses ` .tf ` extension.
 -  Format is HCL **HASHICORP CONFIG LANGUAGE **.
 -  Declarative Language.
 -  State Management.

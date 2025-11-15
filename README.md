@@ -3,11 +3,10 @@
 
 ### TERRAFORM CONFIG:
 
--  if uses ` .tf ` extension.
--  Format is HCL `HASHICORP CONFIG LANGUAGE `.
--  Declarative Language.
--  State Management.
-
+-  Terraform configuration files are written using the `.tf` extension.
+-  Terraform uses HCL, a simple, human-readable language for defining infrastructure. Format is HCL `HASHICORP CONFIG LANGUAGE `.
+-  Declarative Language :- You describe the desired end state, and Terraform figures out how to achieve it.
+-  State Management :- Terraform stores the current infrastructure details in a state file to track and manage changes.
 
 <img width="700" height="500" alt="Image" src="https://github.com/user-attachments/assets/a034fe3c-ce8a-4f24-a7d6-ffda683ea3ec" />
 

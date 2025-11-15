@@ -9,7 +9,7 @@
 -  State Management.
 
 
-<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/a034fe3c-ce8a-4f24-a7d6-ffda683ea3ec" />
+<img width="700" height="500" alt="Image" src="https://github.com/user-attachments/assets/a034fe3c-ce8a-4f24-a7d6-ffda683ea3ec" />
 
 ### Getting Started with Terraform: Introduction to Terraform and IaC
 

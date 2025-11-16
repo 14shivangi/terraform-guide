@@ -1,7 +1,4 @@
-
-# -------------------------------------
 # Input Variables
-# -------------------------------------
 
 # EC2 instance type
 variable "instance_type" {
@@ -23,16 +20,12 @@ variable "instance_name" {
   default     = "demo-ec2"
 }
 
-# -------------------------------------
 # Provider Configuration
-# -------------------------------------
 provider "aws" {
   region = "us-east-1"
 }
 
-# -------------------------------------
 # EC2 Instance Resource
-# -------------------------------------
 resource "aws_instance" "ec2_demo" {
   ami           = var.ami_id
   instance_type = var.instance_type
@@ -42,9 +35,7 @@ resource "aws_instance" "ec2_demo" {
   }
 }
 
-# -------------------------------------
 # Output Variables
-# -------------------------------------
 
 # Public IP of the EC2 instance
 output "public_ip" {

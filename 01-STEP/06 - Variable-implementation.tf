@@ -1,4 +1,4 @@
-# Input Variables
+# Input Variables.
 
 # EC2 instance type
 variable "instance_type" {

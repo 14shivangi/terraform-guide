@@ -16,7 +16,7 @@ This helps keep your code clean, reusable, and secure.
 - Better security by avoiding pushing secrets to Git.
 
 #### Different Environments Support
-- Use different `.tfvars` files for:
+  - Use different `.tfvars` files for:
   - Development (`dev.tfvars`)
   - Staging (`staging.tfvars`)
   - Production (`prod.tfvars`)

@@ -5,7 +5,6 @@ This helps keep your code clean, reusable, and secure.
 
 
 ####  Why do we use `.tfvars`?
-
 ####  Separate Configuration from Code
 - No need to hardcode values in `.tf` files.
 - Makes code more organized and reusable.

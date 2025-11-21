@@ -4,7 +4,7 @@ In Terraform, `.tfvars` files are used to store **values for input variables** d
 This helps keep your code clean, reusable, and secure.
 
 
-###  Why do we use `.tfvars`?
+####  Why do we use `.tfvars`?
 
 ####  Separate Configuration from Code
 - No need to hardcode values in `.tf` files.

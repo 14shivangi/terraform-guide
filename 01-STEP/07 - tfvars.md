@@ -10,9 +10,9 @@ Why do we use  `.tfvars`  files?
 1. **Separation of Configuration from Code**: Separate Configuration from Code
 Variables make Terraform reusable. By storing values in .tfvars files, the same Terraform code can be used in multiple environments like dev, test, or prod without rewriting anything.
 
-3. **Sensitive Information**: `.tfvars` You can store confidential values (like passwords, API keys, or access tokens) in .tfvars files and avoid pushing them to version control. This reduces the risk of exposing secrets publicly.
+2. **Keep Sensitive Data Safe**: `.tfvars` You can store confidential values (like passwords, API keys, or access tokens) in .tfvars files and avoid pushing them to version control. This reduces the risk of exposing secrets publicly.
 
-4. **Reusability**: By keeping configuration values in separate `.tfvars` files, you can reuse the same Terraform code with different sets of variables. This is useful for creating infrastructure for different projects or environments using a single set of Terraform modules.
+3. **Reusability Across Projects**: One Terraform configuration can work for several use cases — only the values change. .tfvars files allow you to easily switch settings based on the situation.
 
 5. **Collaboration**: When working in a team, each team member can have their own `.tfvars` file to set values specific to their environment or workflow. This avoids conflicts in the codebase when multiple people are working on the same Terraform project.
 

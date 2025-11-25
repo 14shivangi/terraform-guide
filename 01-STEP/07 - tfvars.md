@@ -4,7 +4,7 @@ In Terraform, files with the .tfvars extension are used to provide actual values
 
 Instead of writing values directly inside your .tf files, you keep them separately in .tfvars files.
 
-  -  **Why do we use  `.tfvars`  files?*
+  -  **Why do we use  `.tfvars`  files?**
 
 1. **Separation of Configuration from Code**: Separate Configuration from Code
 Variables make Terraform reusable. By storing values in .tfvars files, the same Terraform code can be used in multiple environments like dev, test, or prod without rewriting anything.

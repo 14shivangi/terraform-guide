@@ -30,7 +30,7 @@ In this example, the `count` attribute of the `aws_instance` resource uses a con
 
 # Conditional Variable Assignment Example
 
-```hcl
+```
 variable "environment" {
   description = "Environment type"
   type        = string

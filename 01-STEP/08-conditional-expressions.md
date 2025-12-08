@@ -5,7 +5,7 @@ Conditional expressions in Terraform are used to define conditional logic within
 The syntax for a conditional expression in Terraform is :
 
 
-```hcl
+```
 condition ? true_val : false_val
 ```
 

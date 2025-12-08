@@ -17,7 +17,7 @@ Here are some common use cases and examples of how to use conditional expression
 
 ## Conditional Resource Creation Example
 
-```hcl
+```
 resource "aws_instance" "example" {
   count = var.create_instance ? 1 : 0
 

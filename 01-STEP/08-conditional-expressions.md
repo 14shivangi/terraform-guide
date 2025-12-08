@@ -67,7 +67,7 @@ In this example, the `locals` block uses a conditional expression to assign a va
 
 ## Conditional Resource Configuration 
 
-```hcl
+```
 resource "aws_security_group" "example" {
   name = "example-sg"
   description = "Example security group"

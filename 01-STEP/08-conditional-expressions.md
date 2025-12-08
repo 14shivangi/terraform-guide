@@ -6,7 +6,8 @@ The syntax for a conditional expression in Terraform is :
 
 
 ```
-condition ? true_val : false_val
+condition ?
+true_val : false_val
 ```
 
 - `condition` is an expression that evaluates to either `true` or `false`.

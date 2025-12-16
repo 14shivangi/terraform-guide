@@ -1,6 +1,9 @@
 
 # Modules
 
+<img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/3d550e88-3fd8-405c-b99c-7424c0e78aa0" />
+
+
 The advantage of using Terraform modules in your infrastructure as code (IaC) projects lies in improved organization, reusability, and maintainability. Here are the key benefits:
 
 1. **Modularity**: Terraform modules allow you to break down your infrastructure configuration into smaller, self-contained components. This modularity makes it easier to manage and reason about your infrastructure because each module handles a specific piece of functionality, such as an EC2 instance, a database, or a network configuration.

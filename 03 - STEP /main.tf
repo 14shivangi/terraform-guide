@@ -4,8 +4,8 @@ provider "aws" {
 
 resource "aws_instance" "ec2instance" {
   instance_type = "t2.micro"
-  ami = "ami-053b0d53c279acc90" # change this
-  subnet_id = "subnet-019ea91ed9b5252e7" # change this
+  ami = "ami-00000000001234abc" # change this
+  subnet_id = "subnet-0000012345abcd" # change this
 }
 
 resource "aws_s3_bucket" "s3_bucket" {

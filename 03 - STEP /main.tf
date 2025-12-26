@@ -9,7 +9,7 @@ resource "aws_instance" "ec2instance" {
 }
 
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "abhishek-s3-demo-xyz" # change this
+  bucket = "bucket-123-dynamo" # change this
 }
 
 resource "aws_dynamodb_table" "terraform_lock" {

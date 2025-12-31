@@ -1,4 +1,4 @@
-# Terraform State File: 
+# - Terraform State File: 
 
 
 Terraform is an Infrastructure as Code (IaC) tool used to define and provision infrastructure resources. 
@@ -7,7 +7,7 @@ The Terraform state file is a crucial component of Terraform that helps it keep 
 
 This file, often named `terraform.tfstate`, is a JSON or HCL (HashiCorp Configuration Language) formatted file that contains important information about the infrastructure's current state, such as resource attributes, dependencies, and metadata.
 
-## Advantages of Terraform State File:
+## - Advantages of Terraform State File:
 
 1. **Resource Tracking**: The state file keeps track of all the resources managed by Terraform, including their attributes and dependencies. This ensures that Terraform can accurately update or destroy resources when necessary.
 
@@ -17,9 +17,9 @@ This file, often named `terraform.tfstate`, is a JSON or HCL (HashiCorp Configur
 
 4. **Resource Metadata**: The state file stores metadata about each resource, such as unique identifiers, which is crucial for managing resources and understanding their relationships.
 
----
 
-## Disadvantages of Storing Terraform State in Version Control Systems (VCS):
+
+## - Disadvantages of Storing Terraform State in Version Control Systems (VCS):
 
 1. **Security Risks**: Sensitive information, such as API keys or passwords, may be stored in the state file if it's committed to a VCS. This poses a security risk because VCS repositories are often shared among team members.
 
@@ -27,7 +27,7 @@ This file, often named `terraform.tfstate`, is a JSON or HCL (HashiCorp Configur
 
 ---
 
-## Overcoming Disadvantages with Remote Backends (e.g., S3):
+## - Overcoming Disadvantages with Remote Backends (e.g., S3):
 
 A remote backend stores the Terraform state file outside of your local file system and version control. Using S3 as a remote backend is a popular choice due to its reliability and scalability. Here's how to set it up:
 

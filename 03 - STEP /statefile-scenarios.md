@@ -17,17 +17,22 @@ This file, often named `terraform.tfstate`, is a JSON or HCL (HashiCorp Configur
 
 4. **Resource Metadata**: The state file stores metadata about each resource, such as unique identifiers, which is crucial for managing resources and understanding their relationships.
 
-**Disadvantages of Storing Terraform State in Version Control Systems (VCS):**
+---
+
+## Disadvantages of Storing Terraform State in Version Control Systems (VCS):
 
 1. **Security Risks**: Sensitive information, such as API keys or passwords, may be stored in the state file if it's committed to a VCS. This poses a security risk because VCS repositories are often shared among team members.
 
 2. **Versioning Complexity**: Managing state files in VCS can lead to complex versioning issues, especially when multiple team members are working on the same infrastructure.
 
-**Overcoming Disadvantages with Remote Backends (e.g., S3):**
+---
+
+## Overcoming Disadvantages with Remote Backends (e.g., S3):
 
 A remote backend stores the Terraform state file outside of your local file system and version control. Using S3 as a remote backend is a popular choice due to its reliability and scalability. Here's how to set it up:
 
-1. ### **Create an S3 Bucket**: Create an S3 bucket in your AWS account to store the Terraform state. Ensure that the appropriate IAM permissions are set up.
+
+1. **Create an S3 Bucket**: Create an S3 bucket in your AWS account to store the Terraform state. Ensure that the appropriate IAM permissions are set up.
 
 2. **Configure Remote Backend in Terraform:**
 

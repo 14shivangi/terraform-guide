@@ -25,8 +25,6 @@ This file, often named `terraform.tfstate`, is a JSON or HCL (HashiCorp Configur
 
 2. **Versioning Complexity**: Managing state files in VCS can lead to complex versioning issues, especially when multiple team members are working on the same infrastructure.
 
----
-
 ## - Overcoming Disadvantages with Remote Backends (e.g., S3):
 
 A remote backend stores the Terraform state file outside of your local file system and version control. Using S3 as a remote backend is a popular choice due to its reliability and scalability. Here's how to set it up:
@@ -57,7 +55,7 @@ A remote backend stores the Terraform state file outside of your local file syst
 
 ---
 
-**State Locking with DynamoDB:**
+# - State Locking with DynamoDB:
 
 DynamoDB is used for state locking when a remote backend is configured. It ensures that only one user or process can modify the Terraform state at a time. Here's how to create a DynamoDB table and configure it for state locking:
 
@@ -76,9 +74,9 @@ DynamoDB is used for state locking when a remote backend is configured. It ensur
 By following these steps, you can securely store your Terraform state in S3 with state locking using DynamoDB, mitigating the disadvantages of storing sensitive information in version control systems and ensuring safe concurrent access to your infrastructure. For a complete example in Markdown format, you can refer to the provided example below:
 
 ```markdown
-# Terraform Remote Backend Configuration with S3 and DynamoDB
+# - Terraform Remote Backend Configuration with S3 and DynamoDB
 
-## Create an S3 Bucket for Terraform State
+## - Create an S3 Bucket for Terraform State
 
 1. Log in to your AWS account.
 

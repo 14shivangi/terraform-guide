@@ -15,5 +15,7 @@ Terraform provides a built-in **`sensitive` attribute** to protect variables and
 variable "aws_access_key_id" {
   sensitive = true
 }
+```
+---
 
-#### ⚠️ Note: Sensitive values are still stored in the Terraform state file, so state security is essential.
+### ⚠️ Note: Sensitive values are still stored in the Terraform state file, so state security is essential.

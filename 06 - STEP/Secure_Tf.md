@@ -17,7 +17,7 @@ variable "aws_access_key_id" {
 }
 ```
 
-##### ⚠️ Note: Sensitive values are still stored in the Terraform state file, so state security is essential.
+#####  Note: Sensitive values are still stored in the Terraform state file, so state security is essential.
 
 ---
 
@@ -29,7 +29,7 @@ Instead of hardcoding secrets, store them in a **dedicated secret management sys
 - **HashiCorp Vault**
 - **AWS Secrets Manager**
 
-### ✅ Benefits
+###  Benefits
 - Centralized secret storage  
 - Automatic secret rotation  
 - Fine-grained access control  
@@ -53,7 +53,7 @@ Terraform state files may contain **plain-text secrets**, so storing them secure
 - **Terraform Cloud**
 - **Amazon S3** (with encryption and IAM)
 
-### ✅ Advantages
+###  Advantages
 - Encrypted state storage  
 - State locking and versioning  
 - Better team collaboration  
@@ -63,7 +63,7 @@ Terraform state files may contain **plain-text secrets**, so storing them secure
 terraform encrypt
 ```
 
-##### 🔐 NOTE:  Always enable server-side encryption and restrict access using IAM policies.
+#####  NOTE:  Always enable server-side encryption and restrict access using IAM policies.
 ---
 
 ##  4. Use Environment Variables

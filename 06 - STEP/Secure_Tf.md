@@ -2,8 +2,6 @@
 
 Managing **sensitive information** (such as passwords, API keys, and secrets) is a critical part of working with Terraform. Below are the **most common and recommended ways** to secure Terraform configuration files and state.
 
----
-
 ##  1. Use the `sensitive` Attribute
 
 Terraform provides a built-in **`sensitive` attribute** to protect variables and outputs.

@@ -44,3 +44,45 @@ variable "aws_access_key_id" {
   value = data.vault_generic_secret.aws_access_key_id.value
 }
 ```
+---
+## 3. Use a Secure Remote Backend (Encrypt State)
+
+Terraform state files may contain **plain-text secrets**, so storing them securely is very important.
+
+### Recommended backends
+- **Terraform Cloud**
+- **Amazon S3** (with encryption and IAM)
+
+### ✅ Advantages
+- Encrypted state storage  
+- State locking and versioning  
+- Better team collaboration  
+
+#### Example
+```hcl
+terraform encrypt
+```
+
+##### 🔐 NOTE:  Always enable server-side encryption and restrict access using IAM policies.
+---
+
+##  4. Use Environment Variables
+
+Environment variables provide a **simple and secure** way to pass sensitive values to Terraform.
+
+###  Why use them?
+- Secrets are not stored in `.tf` files  
+- Easy to integrate with CI/CD pipelines  
+
+###  Step 1: Set the environment variable
+```bash
+export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
+```
+
+### Step 2: Read it in Terraform
+```
+variable "aws_access_key_id" {
+  source = "env://AWS_ACCESS_KEY_ID"
+}
+```
+---
